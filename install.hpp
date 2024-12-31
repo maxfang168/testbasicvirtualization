@@ -1,6 +1,6 @@
-// install.h runs on first boot
-#ifndef INSTALL_H
-#define INSTALL_H
+// install.hpp runs on first boot
+#ifndef INSTALL_HPP
+#define INSTALL_HPP
 #include <iostream>
 #include <fstream>
 #include <filesystem>
@@ -41,7 +41,7 @@ while (stream >> word) {
         if (outFile.is_open())
         {
             // Write to the file
-            outFile << "This is a test.";
+            outFile << "";
 
             // Close the file after writing
             outFile.close();
@@ -53,5 +53,4 @@ while (stream >> word) {
     }
     return true;
 }
-
-#endif // INSTALL_H
+#endif
