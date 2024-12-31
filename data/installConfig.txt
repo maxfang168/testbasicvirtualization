@@ -1,0 +1,4 @@
+name computer1
+version 0.01_base
+memory_sector_count 1000
+memory_sector_size_b 1000000
