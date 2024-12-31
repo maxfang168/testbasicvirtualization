@@ -1,4 +1,7 @@
-// install.hpp runs on first boot
+// install.hpp is called on the first boot by the following files:
+// - bootloader.hpp
+// - main.cpp
+
 #ifndef INSTALL_HPP
 #define INSTALL_HPP
 #include <iostream>
